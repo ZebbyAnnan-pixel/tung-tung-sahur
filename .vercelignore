@@ -1,0 +1,52 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Testing & Documentation
+coverage
+test-results
+playwright-report
+*.test.ts
+*.test.tsx
+*.test.js
+*.spec.ts
+*.spec.tsx
+docs/**
+
+# Development
+.env.local
+.env.development.local
+.env.test.local
+.husky
+.vscode
+.source
+
+# Build artifacts
+dist
+.build
+.next/cache
+
+# CI/CD
+.github
+
+# Package managers
+pnpm-lock.yaml
+yarn.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Optional files not needed in production
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+LICENSE
+.npmignore
+.dockerignore
+Dockerfile
+docker-compose.yml
+docker-compose.prod.yml
